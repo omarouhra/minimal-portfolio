@@ -8,7 +8,6 @@ const Home: NextPage = () => {
         <title>Omar's Portfolio</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <h1 className='text-xl font-semibold '> Minimal Portfolio 🎉</h1>
     </div>
   );
 };

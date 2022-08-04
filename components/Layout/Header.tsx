@@ -18,7 +18,7 @@ function Header() {
       <div className='flex items-center justify-between'>
         <Link href='/'>
           <a aria-label='Logo'>
-            <div className="font-semibold">
+            <div className="font-bold">
               Omar Ouhra
             </div>
           </a>
