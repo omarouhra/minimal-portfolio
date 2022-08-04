@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Button() {
+type ButtonType = {
+    lable: string
+}
+
+function Button({ lable }: ButtonType) {
     return (
         <button className='text-lg font-semibold'>
-            View all articles →
+            { lable }
         </button>
     )
 }

@@ -14,16 +14,8 @@ function Header() {
   if (!mounted) return null;
 
   return (
-    <header className='py-8'>
-      <div className='flex items-center justify-between'>
-        <Link href='/'>
-          <a aria-label='Logo'>
-            <div className="font-bold">
-              Omar Ouhra
-            </div>
-          </a>
-        </Link>
-
+    <header className='pt-8'>
+      <div className='flex items-center justify-end'>
         <button
           onClick={() => {
             setTheme(resolvedTheme === "light" ? "dark" : "light");
