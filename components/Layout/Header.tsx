@@ -15,14 +15,7 @@ function Header() {
 
   return (
     <header className='py-8'>
-      <div className='flex items-center justify-between'>
-        <Link href='/'>
-          <a aria-label='Logo'>
-            <div className="font-bold">
-              Omar Ouhra
-            </div>
-          </a>
-        </Link>
+      <div className='flex items-center justify-end'>
 
         <button
           onClick={() => {

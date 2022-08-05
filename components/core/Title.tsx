@@ -10,8 +10,8 @@ function Title({ title, style }: TitleType) {
     return (
         <h2 className={
             style === 'gradient'
-                ? "text-transparent font-medium text-lg md:text-xl bg-clip-text bg-gradient-to-r from-blue-300 to-purple-500"
-                : "text-lg md:text-xl font-medium" }
+                ? "text-transparent font-normal text-lg md:text-xl bg-clip-text mb-3 bg-gradient-to-r from-cyan-400 via-blue-900"
+                : "text-lg md:text-xl font-normal mb-1" }
         >{ title }</h2>
     )
 
