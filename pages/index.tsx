@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           <div className="space-y-12 mb-12">
             {/* Project 1 */ }
             <div className="flex flex-col space-y-8 mt-4 md:flex-row-reverse md:justify-between md:items-center md:space-y-0">
-              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gray-100 rounded-md shadow-lg md:ml-12"></div>
+              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gradient-to-r from-cyan-300 to-blue-500 rounded-md shadow-lg md:ml-12"></div>
               <div>
                 <span className="text-sm text-gray-400 font-light ">
                   2019 - present
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             </div>
             {/* Project 2 */ }
             <div className="flex flex-col space-y-8 mt-4 md:flex-row-reverse md:justify-between md:items-center md:space-y-0">
-              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gray-100 rounded-md shadow-lg md:ml-12"></div>
+              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gradient-to-r from-cyan-300 to-blue-500 rounded-md shadow-lg md:ml-12"></div>
               <div>
                 <span className="text-sm text-gray-400 font-light ">
                   2019 - present
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             </div>
             {/* Project 3 */ }
             <div className="flex flex-col space-y-8 mt-4 md:flex-row-reverse md:justify-between md:items-center md:space-y-0">
-              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gray-100 rounded-md shadow-lg md:ml-12"></div>
+              <div className="w-full h-[250px] md:w-[350px] md:h-[180px] bg-gradient-to-r from-cyan-300 to-blue-500 rounded-md shadow-lg md:ml-12"></div>
               <div>
                 <span className="text-sm text-gray-400 font-light ">
                   2019 - present
