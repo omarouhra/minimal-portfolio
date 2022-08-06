@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
+    <div className='min-h-screen'>
       <Head>
         <title>Omar's Portfolio</title>
         <link rel='icon' href='/favicon.ico' />
